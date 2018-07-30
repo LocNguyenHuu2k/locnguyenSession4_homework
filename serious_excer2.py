@@ -15,9 +15,7 @@ stock = {
     "pear": 15
 }
 
-for i in range(5):
-    if i % 2 != 0:
-        print(i)
+
 
 for key_prices, value_prices in prices.items() :
     print(key_prices)
