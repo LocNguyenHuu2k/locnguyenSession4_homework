@@ -20,7 +20,7 @@ for key, value in inventory.items():
     print(key,':',value)
 
 inventory['gold'] += 50
-print('     ADD 50 GOLD ')
+print('     ADD 50 GOLD TO INVENTORY ')
 
 
 for key, value in inventory.items():

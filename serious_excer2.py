@@ -30,8 +30,8 @@ for key_prices, value_prices in prices.items() :
     print( i,'.',key_prices)
     for key_stocks, value_stocks in stock.items():
         if key_stocks == key_prices :
-            print("prices: ",value_prices)
-            print("stock: ",value_stocks)
+            print('- ',"prices: ",value_prices)
+            print('- ',"stock: ",value_stocks)
 
 total = 0
 
